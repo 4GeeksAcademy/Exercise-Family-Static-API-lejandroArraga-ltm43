@@ -5,7 +5,7 @@ import os
 from flask import Flask, request, jsonify, url_for
 from flask_cors import CORS
 from utils import APIException, generate_sitemap
-from datastructures import FamilyStructure  # Cambiado a "datastructures"
+from datastructures import FamilyStructure
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
